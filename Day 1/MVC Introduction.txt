@@ -1,0 +1,68 @@
+
+
+
+
+
+
+			Model View Controller
+
+
+			Model - (.cs) - data part of application 
+				      - data related operations are performed here
+					 - CRUD operations - insert update delete
+							   - Sort and Filter
+							   - Calculations and Validations
+							   - ADO.Net
+							   - Execute SP - perform transactions etc....
+							   - Data structures - Collections 
+			View - (.cshtml) - UI part of application
+						HTML, CSS, JS, Bootstrap, images, views, advt etc.....
+						Angular, React etc..
+						Razor Syntax (short hand - HTML + CSS + JS)
+
+			Controller - (.cs) - Manage HTTP reuest and response here
+					Collect data from Model pass it to a view
+					Collect data from view pass it to a model
+
+					Authentication and Authorization
+					Session management, Caching etc....
+-------------------------------------------------------------------------------------------------------------------------------------
+
+			Model - a. With the code and operations (coders do this, especially while useing ADO.Net or collection)
+				b. POCO classes (when you use EF Core) - models are created by framework 
+			Views - a. actionView - UI page, which will see
+				b. partial view - custom control - resuable on multiple views
+				c. layout view(layout page) - master view / master page
+			Controller - a. Coded controller - (coders do this, especially while useing ADO.Net or collection)
+				     b. POCO controllers - (when you use EF Core) - models are created by framework 
+				     c. API controller - for WebAPI 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+
+
+
+
+
+
+
+
+
+
+
+

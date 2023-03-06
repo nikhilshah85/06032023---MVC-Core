@@ -1,0 +1,9 @@
+Practice : 
+
+Add a new Controller - Security
+Add 2 Action pages - 
+	Login 
+	register
+Update layout page
+
+build and run the application

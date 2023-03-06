@@ -1,0 +1,51 @@
+Who is a MVC Developer
+
+They know in details about 
+
+
+MVC  - Model View Controller is a design pattern 
+perform CRUD operations with SQL Server
+use ORM Design pattern - For data - Entity Framework Core
+DI - Dependency injection 
+Consume WebAPI / REST services
+Repository pattern 
+
+---------------------------------------------------------------
+
+Name:
+Experiences:
+Expectations:
+background: fresher / expeienced
+
+--------------------------------------------------------------
+
+Pre-req
+
+a. good OOPS understanding and HTML, CSS and JS
+b. software setup
+	a. Visual studio 2019 / 2022
+	b. SQL Server 2014 or above with SSMS
+
+	have them installed on your machine		
+	or
+	Cognizant cloud lab
+
+--------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
