@@ -1,0 +1,24 @@
+﻿
+
+
+
+<form method="post">
+    <input type="text" class="form-control" placeholder="Enter product id" name="id" />
+    <button class="btn btn-danger">Search </button>
+</form>
+
+
+
+@if (ViewBag.isSearchPerformed)
+{
+    <div>
+    <h4> Product Id : @ViewBag.product.pId</h4>
+    <h4> Product Name : @ViewBag.product.pName</h4>
+    <h4> Product Category : @ViewBag.product.pCategory</h4>
+    <h4> Product Price : @ViewBag.product.pPrice</h4>
+    <h4> Product Is In Stock : @ViewBag.product.pIsInStock</h4>
+</div>
+}
+
+<h2 style="color:red"> @ViewBag.errMessage</h2>
+

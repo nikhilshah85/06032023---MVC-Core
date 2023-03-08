@@ -1,0 +1,19 @@
+﻿
+
+
+<form method="post">
+    <input type="number" placeholder="Enter Product Id" class="form-control" name="newP.pId" />
+    <input type="text" placeholder="Enter Product Name" class="form-control" name="newP.pName" />
+    <select name="newP.pCategory" class="form-control">
+        <option>Electronics</option>
+        <option>Watches</option>
+        <option>Cold-Drink</option>
+        <option>T-Shirts</option>
+        <option>Shoes</option>
+    </select>
+    <input type="number" placeholder="Enter Product Price" class="form-control" name="newP.pPrice" />
+    <input type="number" placeholder="Enter Product Is In Stock (1.Yes) (0.No)" class="form-control" name="newP.pIsInStock" />
+    <button class="btn btn-warning">Add Product</button>
+</form>  
+
+<h1> @ViewBag.addResult</h1>

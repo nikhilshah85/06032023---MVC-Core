@@ -1,0 +1,34 @@
+﻿
+
+<h1> Product List </h1>
+
+<table class="table table-bordered">
+    @foreach (var item in ViewBag.products)
+    {
+        <tr>
+            <td> @item.pId </td>
+            <td> @item.pName </td>
+            <td> @item.pCategory </td>
+            <td> @item.pPrice </td>
+            <td> @item.pIsInStock </td>
+            <td> <button class="btn btn-primary">Add To Cart</button> </td>
+        </tr>
+    }
+</table>
+@*
+@foreach (var item in ViewBag.products)
+{
+    <div>
+        <div style="background-color:purple;color:white; width:350px;padding:12px;margin:10px;border-radius:30px">
+        <h3> Product id : @item.pId</h3>
+        <h3> Product Name : @item.pName</h3>
+        <h3> Product Category : @item.pCategory</h3>
+        <h3> Product Price : @item.pPrice</h3>
+        <h3> Product Is In Stock : @item.pIsInStock</h3>
+
+        <hr/>
+        </div>
+    </div>
+}*@
+
+
