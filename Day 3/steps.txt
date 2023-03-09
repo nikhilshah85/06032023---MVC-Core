@@ -1,0 +1,72 @@
+Day 3: MVC Application with Entity Framework Core on SQL Server
+
+1. Create a new database shoppingDB_MVC
+2. create tables and add sample data
+3. Createa a new ASP.net core MVC Application 
+4. Application is blank, has no idea or reference to Entity framework, thus we will have to add Nuget packages for the same
+	4 Nugets to be added in sequence
+
+	solution explorer -> right click -> Manage nuget packages -> Browse - type EntityFrameworkCore
+	
+	Microsoft.EntityFrameworkCore.Tools
+	Microsoft.EntityFrameworkCore.Design
+	Microsoft.EntityFrameworkCore
+	Microsoft.EntityFrameworkCore.SqlServer
+
+	Build the application
+
+5. Tools -> Nuget package manager -> Nuget package manager console
+
+Scaffold-DbContext "server=(localdb)\MSSQLLocalDB;database=shoppingDB_MVC;integrated security=true" -Provider Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models\EF
+
+Build the application 
+
+6. Right click on controller folder - add new controller - MVC Controller with actions using Entity framework
+	choose your table name as model
+	choose your database name as context
+	check the controller file and views folder will have a folder with the table name and 5 views for CRUD operations
+7. by default, DI is used in controller, but only partial, we will learn DI seperately, may be tomorrow
+	in the controller file - instantiate new object of DBContext 
+		
+	Line 14:
+	private readonly ShoppingDbMvcContext _context = new ShoppingDbMvcContext();
+
+	Line 16-20:
+	Comment the constructor
+
+	build the app
+
+8. update the layout page to include link to index page of your table
+
+
+     <li class="nav-item">
+          <a class="nav-link text-dark" asp-area="" asp-controller="Products" asp-action="Index">Products</a>
+     </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
