@@ -1,0 +1,7 @@
+Day 4: Consume WebAPI Data in MVC Application
+
+	2 Ways
+	from Client Side - JQuery, Ajax, third party(AXIOS), fetch api (this is standard and built into web browser)
+		This is fastest - but less secure
+	from Server Side - HttpClient Object
+		This is most secured - may be bit slower

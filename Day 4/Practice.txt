@@ -1,0 +1,34 @@
+Practice :
+
+Create a new Action Comments
+Display data from here
+https://jsonplaceholder.typicode.com/comments
+
+
+Create a new Action Users
+Display data from here
+https://jsonplaceholder.typicode.com/users
+
+Display in a table
+Name Email City Lat Lon CompanyName CompanyCatchPhase
+
+result[i].Name
+result[i].email
+result[i].address.city
+result[i].address.geo.lat
+result[i].address.geo.lon
+result[i].company.name
+result[i].company.catchphase
+
+HEATEOS
+
+
+
+
+
+
+
+
+
+
+
