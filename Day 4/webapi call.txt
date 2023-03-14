@@ -5,3 +5,9 @@ Day 4: Consume WebAPI Data in MVC Application
 		This is fastest - but less secure
 	from Server Side - HttpClient Object
 		This is most secured - may be bit slower
+
+	
+		To make a call from server side, we use HttpClient as a standard object
+
+
+		step 1: Create a new model file with the properies you are going to recieve from the api

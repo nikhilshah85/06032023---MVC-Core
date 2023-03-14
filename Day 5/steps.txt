@@ -1,0 +1,83 @@
+Chrome makes a call in XML by default
+Edge and IExplorer makes a call in JSON by default
+Windows forms all makes a call in binary by default
+Linux based browsers makes call in text format
+
+
+Thus we are cleareing all the default formats from every browser (only for out webapage)
+
+	Line 18
+    client.DefaultRequestHeaders.Accept.Clear(); // clear the default type from the calling environment
+
+and set the format of your data which is coming 
+(it is JSON in our case, thus we are setting it in JSON format)
+	Line 19
+	
+-=------------------------------------------------------------------------------------
+	Step 1: Create a new model of the data which is coming
+	Step 2: Create a new object of HttpClient 
+		clear the default calling format
+		add the format your data is coming in (JSON, XML, Binary, text, stream etc...)
+		make a call
+		check the status of the call - success or failure
+			if success - read the data
+			if faile - throw exception
+	
+			return the data
+	step 3: Add a controller - create new object variable of Model class
+		use (DI) - update program.cs
+	step 4: Make a call, read the data in Viewbag
+	step 5: Create a view, write code to display the data in View
+
+
+	We made a successful call to Post data
+
+	Task : Make a call to user data : https://jsonplaceholder.typicode.com/users
+	useing HttpClient
+	
+	Display
+	UserName Email City Lat lng ComapanyName CompanyCatchPhase
+
+
+	-----------------------------------
+		Security : oAuth 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
