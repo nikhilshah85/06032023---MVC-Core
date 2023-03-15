@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\bankingMVC_oAuth.props" />
+</Project>
