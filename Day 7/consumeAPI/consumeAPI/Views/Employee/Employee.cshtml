@@ -1,0 +1,36 @@
+﻿
+
+
+
+<script>
+    function getEmpData()
+    {
+        var url = "https://localhost:7119/api/Employees";
+
+        fetch(url).then(responseType => responseType.json())
+                  .then(result => {
+                      alert('got the data');
+
+                         for(var i=0;i<result.length;i++)
+                      {
+                      $("table").append("<tr>" + 
+                        "<td>" + result[i].empNo + "</td>" + 
+                        "<td>" + result[i].empName + "</td>" +
+                        "<td>" + result[i].empDesigantion + "</td>" +
+                        "<td>" + result[i].empSalary + "</td>" +
+                        "<td>" + result[i].empIsPermenant + "</td>" +
+
+                    "</tr>")
+                   
+                      })    
+    .catch(err =>{
+        alert('Errorrrrr');
+
+    })
+    }
+</script>
+
+
+<button class="btn btn-primary" onclick="getEmpData()">Show employees</button>
+
+<table class="table table-bordered"></table>

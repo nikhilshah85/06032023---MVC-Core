@@ -1,0 +1,18 @@
+			CORS - Cross Origin Resourse Shareing 
+
+	This will be very help ful when working with WebAPI Application 
+
+		Todays Demonstration : CORS in MVC Core
+
+
+Done		step 1: Create a new database employeeMangementDB - add table and sample data
+		
+Done		step 2 : Create a new WebAPI application 
+		
+Done		step 3 : Use EF Core with WebAPI application with SQL Server, create a controller to distribute data in JSON format
+
+		step 4 : Create a new MVC application and add a controller employee, add action, show employee, and make a fetch call
+
+		step 5 : notice the error and create CORS policy
+		
+		
